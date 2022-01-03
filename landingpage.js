@@ -1,0 +1,2 @@
+/make modal it so that when you hit submit after you enter all of your info, you get a customized pop up message with your user name " thank you X.  Our representatinve will be contact you at the email that you have provided withinthe next 24 hours.... / 
+/add hover functions for buttons./ 
