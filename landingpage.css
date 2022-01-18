@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    font-family: "Questrial", sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     color: white;
     background-color: black;
     overflow-y: scroll;
@@ -12,7 +12,7 @@ body {
 
 #hero {
     display: flex;
-    background-image: url(landingpageimages/yellowbike.jpg);
+    background-image: url(/images/yellowbike.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -23,6 +23,20 @@ body {
     flex-direction: column;
     height: 100vh;
     width: 100vw;
+}
+
+
+h1 {
+    font-family: 'Zen Tokyo Zoo', cursive;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+
+h2 {
+    font-family: 'MuseoModerno', cursive;
+    letter-spacing: 2px;
+
 }
 
 #email {
@@ -40,12 +54,70 @@ body {
 
 #social-proof {
     padding: 50px 0px;
+    line-height: 1.5;
 }
 
-#thatfooter {
+#that-footer {
     height: 200px;
 }
 
 #test-ride {
-    height: 70vh;
+    height: auto;
+}
+
+
+
+
+.photo-gallery {
+    color: white;
+    background-color: none;
+}
+
+.photo-gallery p {
+    color: white
+}
+
+.photo-gallery h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: inherit;
+}
+
+@media (max-width:767px) {
+    .photo-gallery h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px;
+    }
+}
+
+.photo-gallery .intro {
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+.photo-gallery .intro p {
+    margin-bottom: 0;
+}
+
+.photo-gallery .photos {
+    padding-bottom: 20px;
+}
+
+.photo-gallery .item {
+    padding-bottom: 30px;
+}
+
+.img-fluid {
+    min-height: 180px;
+    min-width: auto;
+}
+
+.bi {
+
+    font-size: 2rem;
+    color: white;
+    padding: 5px;
 }
