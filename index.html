@@ -15,17 +15,14 @@
         crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;1,200&family=MuseoModerno:wght@100;200;300&family=Zen+Tokyo+Zoo&display=swap"
         rel="stylesheet">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
-    <link rel="stylesheet" href="landingpage.css">
+    <link rel="stylesheet" href="style.css">
 
 
 </head>
@@ -37,10 +34,8 @@
     <!-- HERO SECTION -->
     <div class="container-fluid justify-content-center" id="hero">
 
-
-
         <div class="container position-absolute top-0 pt-5">
-            <h1 class="display-md1  text-center" id="headline ">OOSAN MOTORCYLES</h1>
+            <h1 class="display-4 display-md-1 p*-1  text-center" id="headline ">OOSAN MOTORCYLES</h1>
             <h2 class="text-center text-center" id="tagline "> Accelerate to Excellence</h2>
         </div>
 
@@ -49,11 +44,11 @@
 
             <form class="row mx-auto" id="infosection " action=" ">
 
-                <div class="row col-md-4 col-10 mx-auto"><input class="form-control " type="text" placeholder=""
+                <div class="row  col-10 col-md-4  mx-auto"><input class="form-control " type="text" placeholder=""
                         aria-label=".form-control-lg example"></div>
 
-                <div class="row mx-auto"><button
-                        class=" col-10 col-md-3 btn btn-primary btn-lg m-2 mx-auto fw-bold">RESERVE
+                <div class="row mx-auto justify-content-center"><button
+                        class=" col-10 col-md-4 justify-content-center btn btn-primary btn-lg m-2 mx-auto fw-bold">RESERVE
                         NOW</button>
                 </div>
             </form>
@@ -62,30 +57,28 @@
 
         </div>
 
-
-
-
-
     </div>
 
 
     <!-- SOCIAL PROOF SECTION-->
 
-    <div class="container-md p-2 justify-content-center " id="social-proof">
+    <div class="container-md-10 p-2 justify-content-center " id="social-proof">
 
         <section class="row justify-content-center">
 
-            <div class="col-md-3 border border-light m-4  justify-center text-center fs-md-4 fs-5 p-4" id="proofquote ">
+            <div class="col-md-3 col-10 border border-light m-4  justify-center text-center fs-md-4 fs-5 p-4"
+                id="proofquote ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dicta nulla, rem, ut doloribus corporis
                 officia veritatis ipsam ullam et amet quae distinctio repellat non!
             </div>
 
-            <div class="col-md-3 border border-light m-4  justify-center text-center fs-md-4 fs-5 p-4" id="proofquote ">
+            <div class="col-md-3 col-10  border border-light m-4  justify-center text-center fs-md-4 fs-5 p-4"
+                id="proofquote ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dicta nulla, rem, ut doloribus corporis
                 officia veritatis ipsam ullam et amet quae distinctio repellat non!
             </div>
 
-            <div class="col-md-3 border border-light m-4  justify-center text-center  fs-md-4 fs-5 p-4"
+            <div class="col-md-3 col-10  border border-light m-4  justify-center text-center  fs-md-4 fs-5 p-4"
                 id="proofquote ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima dicta nulla, rem, ut doloribus corporis
                 officia veritatis ipsam ullam et amet quae distinctio repellat non!
@@ -96,7 +89,7 @@
 
     <!-- TEST RIDE SECTION -->
     <div class="container pb-3">
-        <h2 class="display-4 text-center pd-3" id=" formheader "> SCHEDULE YOUR TEST RIDE </h2>
+        <h2 class="display-md-4 text-center pd-3  " id=" formheader "> SCHEDULE YOUR TEST RIDE </h2>
     </div>
 
     <div class="container mb-5" id="test-ride">
@@ -107,30 +100,41 @@
                 <form action="POST " id="infoform ">
 
 
-                    <div class="row col-12 m-3 ">
-                        <label class="col-4 col-sm-3 fs-md-4 fs-5 p*-1 text-nowrap " for="firstname ">First Name</label>
-                        <input class="  col-8 form-control-lg mx-auto " type="text " id="firstname " placeholder=" "
-                            required>
+                    <div class="row justify-content-center  m-3 ">
+                        <label
+                            class="col-8 col-sm-4 fs-md-4 fs-5 p*-1 text-md-left text-center text-wrap text-md-nowrap "
+                            for="firstname ">First Name</label>
+                        <input class="col-10 col-sm-8 form-control-lg mx-auto " type="text " id="firstname "
+                            placeholder=" " required>
                     </div>
 
 
-                    <div class="row col-12 m-3 ">
-                        <label class="col-4 col-sm-3 fs-md-4 fs-5 p*-1 text-nowrap ">Last Name</label>
-                        <input class=" col-8 form-control-lg mx-auto  " type="text " id="last-name " placeholder=" "
-                            required>
+                    <div class="row justify-content-center  m-3 ">
+                        <label
+                            class="col-8 col-sm-4 fs-md-4 fs-5 p*-1 text-md-left text-center text-wrap text-md-nowrap "
+                            for="firstname ">Last Name</label>
+                        <input class="col-10 col-sm-8 form-control-lg mx-auto " type="text " id="lastname "
+                            placeholder=" " required>
                     </div>
-                    <div class="row col-12 m-3 ">
-                        <label class="col-4 col-sm-3 fs-md-4 fs-5 p*-1 text-nowrap " for="Email ">Email</label>
-                        <input class=" col-8 form-control-lg  mx-auto " type="email " id="last-name " placeholder=" "
-                            required>
+                    <div class="row justify-content-center  m-3 ">
+                        <label
+                            class="col-8 col-sm-4 fs-md-4 fs-5 p*-1 text-md-left text-center text-wrap text-md-nowrap "
+                            for="firstname ">Email</label>
+                        <input class="col-10 col-sm-8 form-control-lg mx-auto " type="email " id="email "
+                            placeholder=" " required>
                     </div>
-                    <div class="row col-12 m-3 ">
-                        <label class="col-4 col-sm-3 fs-md-4 fs-5 p*-1 text-nowrap " for="Mobile ">Mobile</label>
-                        <input class=" col-8 form-control-lg mx-auto  " type="tel " id="phone "
+
+                    <div class="row justify-content-center  m-3 ">
+                        <label
+                            class="col-8 col-sm-4 fs-md-4 fs-5 p*-1 text-md-left text-center text-wrap text-md-nowrap "
+                            for="firstname ">Mobile</label>
+                        <input class="col-10 col-sm-8 form-control-lg mx-auto " type="tel " id="phone"
                             placeholder=" optional ">
                     </div>
-                    <div class="row m-3 "><label class=" col-4 col-sm-3 fs-4  " for=" Mobile "></label>
-                        <button class=" col-6 btn btn-primary btn-lg mx-auto">BOOK NOW</button>
+
+                    <div class="row justify-content-center  m-3 ">
+                        <label class=" col-4 fs-4" for=" button"></label>
+                        <button class=" col-10 col-sm-8 text-center btn btn-primary btn-lg mx-auto">BOOK NOW</button>
                     </div>
 
 
@@ -181,7 +185,6 @@
 
         </div>
     </div>
-
 
     </div>
 
